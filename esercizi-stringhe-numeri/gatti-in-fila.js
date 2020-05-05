@@ -17,3 +17,15 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44;
+var line = 6;
+
+var lines_n = Math.ceil(cats/line);
+
+var remainder = Math.ceil(cats%line);
+
+console.log("cats number:"+cats);
+console.log("cats in a line:"+line);
+console.log("number of lines:"+lines_n);
+console.log("cats remainder:"+remainder);
