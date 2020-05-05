@@ -23,9 +23,11 @@ var line = 6;
 
 var lines_n = Math.ceil(cats/line);
 
-var remainder = Math.ceil(cats%line);
+var lines_nxline = line*lines_n;    // numero di file per numero di gatti in fila //
+
+var cats_lacking = lines_nxline-cats;
 
 console.log("cats number:"+cats);
 console.log("cats in a line:"+line);
 console.log("number of lines:"+lines_n);
-console.log("cats remainder:"+remainder);
+console.log("cats lacking:"+cats_lacking);
