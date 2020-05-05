@@ -25,7 +25,7 @@ var lines_n = Math.ceil(cats/line);
 
 var lines_nxline = line*lines_n;    // numero di file per numero di gatti in fila //
 
-var cats_lacking = lines_nxline-cats;
+var cats_lacking = lines_nxline-cats; // quanti gatti mancano per completare la fila //
 
 console.log("cats number:"+cats);
 console.log("cats in a line:"+line);
